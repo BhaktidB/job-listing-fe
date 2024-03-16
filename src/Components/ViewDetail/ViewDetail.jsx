@@ -52,7 +52,7 @@ const ViewDetail = () => {
 
                 <div className={styles.navbar}>
 
-                    <h2>Jobfinder</h2>
+                    <h2 onClick={()=>navigate('/')}>Jobfinder</h2>
                     <div className={styles.groupBtn}>
                         {jwtToken?<>
                         <button className={styles.logoutBtn}

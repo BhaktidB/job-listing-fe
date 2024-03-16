@@ -1,0 +1,66 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 3%;
+    align-items: flex-start;
+    padding: 5%;
+}
+
+.regform{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+    margin-top: 3%;
+}
+
+.flexInput{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.info form input{
+    padding: 1%;
+    width: 60%;
+}
+
+.signinBtn{
+    background: #ED5353;
+    color: #FFFFFF;
+    padding: 1.5%;
+    width: 30%;
+    border: none;
+    border-radius: 3%;
+    font-size: large;
+    font-weight: 600;
+}
+
+.info a{
+    color: #000000; 
+}
+
+.regimg{
+    width: 35%;
+    height: 100vh;
+    position: relative;
+}
+
+.regimg img{
+    width: 100%;
+}
+
+.regimg h2{
+    position: absolute;
+    top: 15px;
+    color: #FFFFFF;
+    font-weight: 100;
+    width: 100%;
+    padding: 0px 83px;
+}

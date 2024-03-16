@@ -1,0 +1,103 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.jobDetails{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 3%;
+    align-items: flex-start;
+    padding:2% 5%;
+}
+
+.jobForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+    margin-top: 30px;
+}
+
+.formGroup{
+    width: 100%;
+}
+
+.formGroup label{
+    font-weight: 600;
+    /* margin-right: 10%; */
+    min-width: 150px;
+    display: inline-block;
+}
+
+.formGroup input{
+    width: 55%;
+    padding: 6px;
+    /* color: #ADADAD; */
+    border: 1px solid #ADADAD;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    color: #ADADAD; 
+}
+
+.formGroup select{
+    width: 30%;
+    padding: 6px;
+    color: #ADADAD;
+    border: 1px solid #ADADAD;
+    border-radius: 3px;
+}
+
+
+.jobImg{
+    width: 35%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.jobImg img{
+    width: 100%;
+}
+
+.jobh{
+    position: absolute;
+    top: 15px;
+    color: #FFFFFF;
+    font-weight: 100;
+    width: 100%;
+    padding: 0px 45px;
+}
+
+.cancelBtn{
+    color: #C2C2C2;
+    border: 1px solid #C2C2C2;
+    border-radius: 3px;
+    background: #FFFFFF;
+    padding: 1.5% 5%;
+}
+
+.addBtn{
+    color: #FFFFFF;
+    border: 1px solid #ED5353;
+    border-radius: 3px;
+    background: #ED5353;
+    padding: 1.5% 5%;
+}
+
+.groupBtn{
+    width: 77%;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.selected{
+    margin-left: 35%;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}

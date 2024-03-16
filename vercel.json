@@ -1,0 +1,24 @@
+{
+    "routes":[
+        {
+            "src":"/",
+            "dest":"/"
+        },
+        {
+            "src":"/register",
+            "dest":"/"
+        },
+        {
+            "src":"/login",
+            "dest":"/"
+        },
+        {
+            "src":"/job-details/:id",
+            "dest":"/"
+        },
+        {
+            "src":"/job-post",
+            "dest":"/"
+        }
+    ]
+}

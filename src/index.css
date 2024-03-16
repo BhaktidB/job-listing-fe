@@ -1,0 +1,10 @@
+:root {
+  font-family: "DM Sans", sans-serif;
+  
+}
+/* // <uniquifier>: Use a uniquifier for the class name */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
